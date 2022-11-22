@@ -10,7 +10,7 @@
 
 - 📝 I regularly write articles on [https://radicalz4retr0.blogspot.com/](https://radicalz4retr0.blogspot.com/)
 
-- 💬 Ask me about **Linux, C++, Javascript, Burp-Suite, Wireshark**
+- 💬 Ask me about **Linux, Python, C++, Javascript, Burp-Suite, Wireshark**
 
 - 📫 How to reach me **krish22092003@gmail.com**
 
