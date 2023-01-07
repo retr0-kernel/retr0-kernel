@@ -4,13 +4,13 @@
 
 <p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
 
-- 🔭 I’m currently working on **Smart Mirror**
+- 🔭 I’m currently working on **Wireless USB Rubber Ducky**
 
 - 🌱 I’m currently learning **Networking and Penetration Testing**
 
 - 📝 I regularly write articles on [https://radicalz4retr0.blogspot.com/](https://radicalz4retr0.blogspot.com/)
 
-- 💬 Ask me about **Linux, Python, C++, Javascript, Burp-Suite, Wireshark**
+- 💬 Ask me about **Linux, Python, C++, Solidity, Burp-Suite, Wireshark**
 
 - 📫 How to reach me **krish22092003@gmail.com**
 
