@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 I’m currently working on Malware Development<br>🌱 I’m currently learning Penetration Testing and Vulnerability Assessment <br>📝 I regularly write articles on https://radicalz4retr0.blogspot.com/<br>💬 Ask me about Linux, Python, C++, Solidity, Burp-Suite, Wireshark, Metasploit<br>📫 How to reach me krish22092003@gmail.com<br>⚡ Fun fact Black Coffee is the new drug
+🔭 I’m currently working on Malware Development<br>🌱 I’m currently learning Penetration Testing and Vulnerability Assessment <br>📝 I regularly write articles on [https://medium.com/@krizzsrivastava](https://medium.com/@krizzsrivastava)/<br>💬 Ask me about Linux, Python, C++, Burp-Suite, Wireshark, Metasploit<br>📫 How to reach me krish22092003@gmail.com
 
 
 ## 🌐 Socials:
