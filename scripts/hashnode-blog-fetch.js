@@ -2,15 +2,23 @@ const fs = require("fs");
 const fetch = require("node-fetch");
 
 const HASHNODE_USERNAME = "retr0758";
+
 const QUERY = `
 {
   user(username: "${HASHNODE_USERNAME}") {
-    publication {
-      posts(page: 0) {
-        title
-        brief
-        slug
-        dateAdded
+    publications(first: 1) {
+      edges {
+        node {
+          posts(first: 5) {
+            edges {
+              node {
+                title
+                slug
+                publishedAt
+              }
+            }
+          }
+        }
       }
     }
   }
@@ -25,12 +33,18 @@ const QUERY = `
 
   const json = await res.json();
 
-  const posts = json.data.user.publication.posts.slice(0, 5);
+  const posts = json?.data?.user?.publications?.[0]?.node?.posts?.edges;
+
+  if (!posts) {
+    console.error("❌ Could not fetch posts. Full response:", JSON.stringify(json, null, 2));
+    process.exit(1);
+  }
+
   const output = posts
-    .map(
-      (post) =>
-        `- [${post.title}](https://${HASHNODE_USERNAME}.hashnode.dev/${post.slug})`
-    )
+    .map((edge) => {
+      const post = edge.node;
+      return `- [${post.title}](https://${HASHNODE_USERNAME}.hashnode.dev/${post.slug})`;
+    })
     .join("\n");
 
   const readme = fs.readFileSync("README.md", "utf-8");
