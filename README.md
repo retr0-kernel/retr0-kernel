@@ -41,6 +41,11 @@
 
 ## Latest Blog Posts
 <!-- BLOG-POST-LIST:START -->
+- [Understanding Browser-in-the-Middle (BitM) Attacks](https://retr0758.hashnode.dev/understanding-browser-in-the-middle-bitm-attacks)
+- [Understanding Cross-Chain Interoperability](https://retr0758.hashnode.dev/understanding-cross-chain-interoperability)
+- [Game Engines and Cloud Gaming](https://retr0758.hashnode.dev/game-engines-and-cloud-gaming)
+- [Beyond Encryption: How FHE, SMPC, ZKPs, and TEEs Actually Work in Practice](https://retr0758.hashnode.dev/beyond-encryption-how-fhe-smpc-zkps-and-tees-actually-work-in-practice)
+- [Deploying AI Agents in n8n Workflows](https://retr0758.hashnode.dev/n8n)
 <!-- BLOG-POST-LIST:END -->
 
 ---
