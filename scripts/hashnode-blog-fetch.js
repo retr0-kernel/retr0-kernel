@@ -33,7 +33,8 @@ const QUERY = `
 
   const json = await res.json();
 
-  const posts = json?.data?.user?.publications?.[0]?.node?.posts?.edges;
+  // ✅ Corrected access path
+  const posts = json?.data?.user?.publications?.edges?.[0]?.node?.posts?.edges;
 
   if (!posts) {
     console.error("❌ Could not fetch posts. Full response:", JSON.stringify(json, null, 2));
