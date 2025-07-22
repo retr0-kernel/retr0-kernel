@@ -39,11 +39,6 @@
 
 ---
 
-## GitHub Activity Graph
-[![Krish's GitHub Activity Graph](https://github-readme-activity-graph.cyclic.app/graph?username=retr0-kernel&theme=tokyo-night)](https://github.com/Ashutosh00710/github-readme-activity-graph)
-
----
-
 ## Latest Blog Posts
 <!-- BLOG-POST-LIST:START -->
 <!-- BLOG-POST-LIST:END -->
