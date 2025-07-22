@@ -1,14 +1,14 @@
-name: Latest blog post workflow
+# .github/workflows/hashnode-blog.yml
+name: Latest Hashnode Blog Posts
 on:
   schedule:
-    - cron: '0 * * * *'  # every hour
+    - cron: '0 */6 * * *'  # every 6 hours
   workflow_dispatch:
 
 jobs:
   update-readme:
-    name: Update this repo's README with latest Hashnode blogs
     runs-on: ubuntu-latest
     steps:
-      - uses: gautamkrishnar/blog-post-workflow@master
+      - uses: pknerd/hashnode-blog-readme@main
         with:
-          feed_list: "https://krizzzz.hashnode.dev/rss.xml"
+          HASHNODE_USERNAME: krizzzz
