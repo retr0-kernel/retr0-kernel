@@ -33,7 +33,6 @@ const QUERY = `
 
   const json = await res.json();
 
-  // ✅ Corrected access path
   const posts = json?.data?.user?.publications?.edges?.[0]?.node?.posts?.edges;
 
   if (!posts) {
@@ -44,9 +43,10 @@ const QUERY = `
   const output = posts
     .map((edge) => {
       const post = edge.node;
-      return `- [${post.title}](https://${HASHNODE_USERNAME}.hashnode.dev/${post.slug})`;
-    })
-    .join("\n");
+      return `- [${post.title}](https://krizzzz.hashnode.dev/${post.slug})`;
+   })
+   .join("\n");
+
 
   const readme = fs.readFileSync("README.md", "utf-8");
 
