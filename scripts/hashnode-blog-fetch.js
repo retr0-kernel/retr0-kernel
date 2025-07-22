@@ -1,7 +1,7 @@
 const fs = require("fs");
 const fetch = require("node-fetch");
 
-const HASHNODE_USERNAME = "krizzzz";
+const HASHNODE_USERNAME = "retr0758";
 const QUERY = `
 {
   user(username: "${HASHNODE_USERNAME}") {
