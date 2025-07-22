@@ -1,14 +1,29 @@
-# .github/workflows/hashnode-blog.yml
-name: Latest Hashnode Blog Posts
+name: Update Hashnode Blogs
+
 on:
-  schedule:
-    - cron: '0 */6 * * *'  # every 6 hours
   workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * 0'  # Every Sunday at midnight
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
-      - uses: pknerd/hashnode-blog-readme@main
+      - uses: actions/checkout@v3
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
-          HASHNODE_USERNAME: krizzzz
+          node-version: '20'
+
+      - name: Install Dependencies
+        run: npm install node-fetch@2
+
+      - name: Update README with latest Hashnode blogs
+        run: node scripts/hashnode-blog-fetch.js
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit -am "📚 update latest blog posts"
+          git push
