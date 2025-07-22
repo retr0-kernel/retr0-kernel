@@ -1,0 +1,14 @@
+name: Latest blog post workflow
+on:
+  schedule:
+    - cron: '0 * * * *'  # every hour
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    name: Update this repo's README with latest Hashnode blogs
+    runs-on: ubuntu-latest
+    steps:
+      - uses: gautamkrishnar/blog-post-workflow@master
+        with:
+          feed_list: "https://krizzzz.hashnode.dev/rss.xml"
