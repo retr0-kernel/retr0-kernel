@@ -39,17 +39,6 @@
 
 ---
 
-## Latest Blog Posts
-<!-- BLOG-POST-LIST:START -->
-- [The Future of AI Memory](https://krizzzz.hashnode.dev/knowledge-graph-memory)
-- [Zero-Config Remote Worker Mesh](https://krizzzz.hashnode.dev/zero-config-remote-worker-mesh)
-- [Understanding Browser-in-the-Middle (BitM) Attacks](https://krizzzz.hashnode.dev/understanding-browser-in-the-middle-bitm-attacks)
-- [Understanding Cross-Chain Interoperability](https://krizzzz.hashnode.dev/understanding-cross-chain-interoperability)
-- [Game Engines and Cloud Gaming](https://krizzzz.hashnode.dev/game-engines-and-cloud-gaming)
-<!-- BLOG-POST-LIST:END -->
-
----
-
 ## Let's Build Weird, Smart Things
 
 > Got a wild idea that involves robots, servers, AI, or chaos?  
